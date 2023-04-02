@@ -7,7 +7,8 @@ function isPalindrome(word) {
   return word === word.split('').reverse().join('');
 
 }
-
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("hello")); 
 /* 
   Add your pseudocode here
   1. Create a new variable called `cleanedWord` and assign it the value of the input word with all non-alphanumeric characters removed and converted to lowercase
